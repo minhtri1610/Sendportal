@@ -14,8 +14,11 @@ git clone https://github.com/mettle/sendportal-core.git
 ```
 
 ### Add config composer.json
+```javascript
 cd sources
 vi composer.json
+```
+
 ```javascript
 "repositories": [
     {
@@ -33,8 +36,11 @@ vi composer.json
 ```
 
 ### Rename packages sendportal core
+```javascript
 cd sources/packges/sendportal-core
 vi composer.json
+```
+
 "name": "packges/sendportal-core"
 
 ### Installation
