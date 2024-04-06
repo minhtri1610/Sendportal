@@ -6,10 +6,12 @@ laravel new sources
 ```
 
 ### Clone sendportal packges core
+```javascript
 cd sources
 mkdir packges
 cd  packges
 git clone https://github.com/mettle/sendportal-core.git
+```
 
 ### Add config composer.json
 cd sources
