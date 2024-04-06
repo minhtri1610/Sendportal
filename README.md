@@ -5,13 +5,13 @@
 laravel new sources
 ```
 
-### clone sendportal packges core
+### Clone sendportal packges core
 cd sources
 mkdir packges
 cd  packges
 git clone https://github.com/mettle/sendportal-core.git
 
-### add config composer.json
+### Add config composer.json
 cd sources
 vi composer.json
 ```javascript
@@ -30,21 +30,21 @@ vi composer.json
 }
 ```
 
-### rename packages sendportal core
+### Rename packages sendportal core
 cd sources/packges/sendportal-core
 vi composer.json
 "name": "packges/sendportal-core"
 
-### installation
+### Installation
 ### cd sources
 composer install
 
-### config database in .env
+### Config database in .env
 
-### publish vendor
+### Publish vendor
 php artisan vendor:publish --provider=Sendportal\\Base\\SendportalBaseServiceProvider
 
-### migrate
+### Migrate
 php artisan migrate
 
 ### Publish Assets with force
